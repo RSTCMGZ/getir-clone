@@ -22,7 +22,7 @@
     <!--! header start -->
     <nav class="navbar navbar-expand-lg">
       <div class="container px-5">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand active" href="#">
           <img src="img/logo.svg" alt="" />
         </a>
         <button
@@ -79,32 +79,34 @@
     <!--! header end -->
     <!--! hero img start-->
     <div class="hero-img position-relative">
-      <div
-        id="carouselExampleAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/slider/getir-slider.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/slider/getir-slider2.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/slider/getir-slider3.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
+      <div class="hero-img-color">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel position-relative slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner position-absolute">
+            <div class="carousel-item active">
+              <img
+                src="img/slider/getir-slider.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider/getir-slider2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider/getir-slider3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -176,7 +178,7 @@
     <!--! categories start -->
     <section class="categories container mt-4">
       <div class="mx-auto">
-        <h3 class="desc mb-3">Kategoriler</h3>
+        <h3 class="desc mx-5">Kategoriler</h3>
         <div class="categories mx-5">
           <div class="categories-img">
             <a href="#">
@@ -440,6 +442,110 @@
       </section>
     </div>
     <!--! campaing end -->
+    <!--! footer start -->
+    <footer class="footer container">
+      <div class="row">
+        <div class="col-3">
+          <div>Getir'i indirin!</div>
+          <ol>
+            <li class="my-3">
+              <a href="#"><img src="img/app-name/appstore.svg" alt="" /></a>
+            </li>
+            <li class="my-3">
+              <a href="#"><img src="img/app-name/googleplay.svg" alt="" /></a>
+            </li>
+            <li class="my-3">
+              <a href="#"><img src="img/app-name/huawei.svg" alt="" /></a>
+            </li>
+          </ol>
+        </div>
+        <div class="col-3">
+          <div>Getir'i keşfedin</div>
+          <ol>
+            <li class="my-3">
+              <a href="#">Hakkımızda</a>
+            </li>
+            <li class="my-3">
+              <a href="#">Kariyer </a>
+            </li>
+            <li class="my-3">
+              <a href="#">Teknoloji Kariyerleri </a>
+            </li>
+            <li class="my-3">
+              <a href="#"> İletişim </a>
+            </li>
+            <li class="my-3">
+              <a href="#"> Sosyal Sorumluluk Projeleri </a>
+            </li>
+          </ol>
+        </div>
+        <div class="col-3">
+          <div>Yardıma mı ihtiyacınız var?</div>
+          <ol>
+            <li class="my-3">
+              <a href="#">Sıkça Sorulan Sorular</a>
+            </li>
+            <li class="my-3">
+              <a href="#">Kişisel Verilerin Korunması </a>
+            </li>
+            <li class="my-3">
+              <a href="#">Gizlilik Politikası </a>
+            </li>
+            <li class="my-3">
+              <a href="#"> Kullanım Koşulları </a>
+            </li>
+            <li class="my-3">
+              <a href="#"> Çerez Politikası </a>
+            </li>
+            <li class="my-3">
+              <a href="#"> İşlem Rehberi </a>
+            </li>
+          </ol>
+        </div>
+        <div class="col-3">
+          <div>İş Ortağımız Olun</div>
+          <ol>
+            <li class="my-3">
+              <a href="#">Bayimiz Olun </a>
+            </li>
+            <li class="my-3">
+              <a href="#">Deponuzu Kiralayın </a>
+            </li>
+            <li class="my-3">
+              <a href="#">GetirYemek Restoranı Olun </a>
+            </li>
+            <li class="my-3">
+              <a href="#"> GetirÇarşı İşletmesi Olun </a>
+            </li>
+            <li class="my-3">
+              <a href="#"> Zincir Restoranlar </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="etbis">
+        <img src="img/etbis/etbis.png" width="70px" alt="" />
+      </div>
+      <hr />
+      <div class="copyright">
+        <span>© 2023 getir <a href="#">Bilgi Toplumu Hizmetleri </a></span>
+        <ul class="d-flex gap-3">
+          <li>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-globe"></i>Türkçe(TR)</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--! footer end -->
     <!--! Bootstrap JS CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
