@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Getir - Dakikalar İçinde Kapınızda</title>
+
+    <!--! Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!--! header start -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container px-5">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">getiryemek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">getirbüyük</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">getirsu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">getirçarşı</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                ><i class="bi bi-globe mx-2"></i>Türkçe(TR)</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="bi bi-person mx-2"></i>Giriş Yap</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="bi bi-person-add mx-2"></i>Kayıt Ol</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--! header end -->
+    <!--! hero img start-->
+    <div class="hero-img position-relative">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/slider/getir-slider.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/slider/getir-slider2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/slider/getir-slider3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <!--! desc start-->
+      <section class="section position-absolute">
+        <div class="row">
+          <div class="col-6">
+            <img src="img/getir.svg" class="getir" alt="" />
+            <h3 class="text-white mt-3">
+              Dakikalar içinde <br />
+              kapınızda
+            </h3>
+          </div>
+          <div class="col-6 d-flex align-items-center">
+            <div class="sign-up">
+              <h4 class="text-center">Giriş yap veya kayıt ol</h4>
+
+              <div class="input-group mb-3 position-relative">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="img/bayraklar/tr.svg" width="18px" alt="" />
+                  + 90
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="img/bayraklar/gb.svg" width="18px" alt="" />
+                      +44</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="img/bayraklar/nl.svg" width="18px" alt="" />
+                      +31</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="img/bayraklar/us.svg" width="18px" alt="" />
+                      +1</a
+                    >
+                  </li>
+                </ul>
+                <div class="flex-grow-1 input mx-2 position-relative">
+                  <input
+                    type="text"
+                    placeholder="telefon numarası"
+                    class="px-4 input border-0"
+                  />
+                </div>
+                <div class="button-telephone">
+                  <a href="#" class="btn bg-warning mt-3 w-100 rounded-3">
+                    Telefon numarası ile devam et
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--! desc end-->
+    </div>
+    <!--! hero img end-->
+
+    <!--! categories start -->
+    <section class="categories container mt-4">
+      <div class="mx-auto">
+        <h3 class="desc mb-3">Kategoriler</h3>
+        <div class="categories mx-5">
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/su&içecek.png" width="90px" alt="" />
+              <span>Su & İçecek</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/meyve&sebze.png" width="90px" alt="" />
+              <span>Meyve & Sebze</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/Fırından.png" width="90px" alt="" />
+              <span>Fırından</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/Temel gıda.png" width="90px" alt="" />
+              <span>Temel Gıda</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/Atıştırmalık.png" width="90px" alt="" />
+              <span>Atıştırmalık</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/dondurma.png" width="90px" alt="" />
+              <span>Dondurma </span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/süt ürünleri.png" width="90px" alt="" />
+              <span>Süt Ürünleri</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/kahvaltılık.png" width="90px" alt="" />
+              <span>Kahvaltılık</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/yiyecek.png" width="90px" alt="" />
+              <span>Yiyecek</span>
+            </a>
+          </div>
+
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/fit&form.png" width="90px" alt="" />
+              <span>Fit & Form</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/kişiselbakım.png" width="90px" alt="" />
+              <span>Kişisel Bakım</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/evbakım.png" width="90px" alt="" />
+              <span>Ev Bakım</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/ev&yaşam.png" width="90px" alt="" />
+              <span>Ev & Yaşam</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/teknoloji.png" width="90px" alt="" />
+              <span>Teknoloji</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/evcilhayvan.png" width="90px" alt="" />
+              <span>Evcil Hayvan</span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/bebek.png" width="90px" alt="" />
+              <span>Bebek </span>
+            </a>
+          </div>
+          <div class="categories-img">
+            <a href="#">
+              <img src="img/kategoriler/cinselsağlık.png" width="90px" alt="" />
+              <span>Cinsel Sağlık </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! categories end -->
+    <!--! Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+    <script src="js/categories.js"></script>
+  </body>
+</html>
