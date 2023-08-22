@@ -7,10 +7,12 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
-body {
+
+.background {
   height: 100%;
   width: 100%;
-  background-color: rgb(250, 250, 250) !important;
+  background-color: #ece9e9 !important;
+  padding: 20px;
 }
 a {
   text-decoration: none !important;
@@ -127,7 +129,7 @@ ul {
 .categories {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  gap: 40px;
+  gap: 60px;
 }
 
 .categories-img {
@@ -152,3 +154,45 @@ ul {
   color: #000;
 }
 /*! categories end */
+/*! app start */
+.app {
+  background-image: url(../img/app/doodle.png);
+  background-color: var(--primary-brand-color);
+  height: 312px;
+}
+.app h2 {
+  font-size: 26px;
+  color: #fff;
+}
+.app span {
+  font-size: 16px;
+  color: #fff;
+}
+/*! app end */
+/*! campaign start */
+.campaign {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.row-container {
+  display: flex;
+  column-gap: 15px;
+}
+.order {
+  text-align: center;
+  max-width: 292px;
+  line-height: 25px;
+  font-size: 18px;
+  color: #5d3ebc;
+}
+.order-1 {
+  text-align: center;
+  margin-top: 8px;
+  line-height: 23px;
+  font-size: 15px;
+  color: #697488;
+  font-weight: normal;
+}
+/*! campaign end */
